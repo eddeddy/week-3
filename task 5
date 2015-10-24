@@ -1,0 +1,14 @@
+Using the flow chart below, construct the if..elif..else control structure. Complete your program to describe the 
+earthquake by asking the user to enter a magnitude on the Richter scale.
+
+r=float(input("enter a magnitude"))
+if r >= 8: 
+  print("Most structures fall") 
+elif r >= 7 and r < 8: 
+  print("Many buildings destroyed") 
+elif r >= 6 and r < 7: 
+  print("Many buildings considerably damaged,some colapse") 
+elif r >= 4.5 and r < 6: 
+  print("Damage to poorly constructed buildings") 
+elif r < 4.5: 
+  print("No destruction of buildings")
