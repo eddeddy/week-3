@@ -1,0 +1,18 @@
+Write a program that sets a password as ‘changeme’ and asks the user to enter the password and keeps asking until the 
+correct password is entered and then says ‘Accepted’. The program should count how many attempts the user has taken
+and tell them after they have been accepted. Extra Challenge: If the user takes more than 5 attempts the program 
+should say, ‘Access denied, please press enter to exit and contact security to reset your password’
+
+y = 'changeme' 
+i = 0 
+while i <= 5:
+  x = input("Enter the password") 
+  if x == y:
+    print("Accepted")
+    break 
+  else: 
+    print("Try again") 
+    i += 1 
+  if i == 5: 
+    print("Access denied") 
+    break
