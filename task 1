@@ -1,0 +1,4 @@
+What is the error in this statement? 
+if scoreA = scoreB :
+print("Tie")
+It must be two == 
