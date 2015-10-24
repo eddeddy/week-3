@@ -1,0 +1,4 @@
+Supply a condition in this if statement to test whether the user entered a Y:
+userInput = input("Enter Y to quit.") 
+if userInput == ‘Y’:
+print("Goodbye")
