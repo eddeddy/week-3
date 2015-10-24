@@ -1,0 +1,15 @@
+Find the errors in the following if statements. Make corrections. 
+a)if x > 0 then : -> without then print(x)
+b)if (1 + x) > ( x ** sqrt(2) ):
+y = y + x
+c)if x = 1 :
+y += 1 -> it  must be two ==
+d) letterGrade = "F" -> it need space and input and print
+if grade >= 90 : 
+letterGrade = "A" 
+if grade >= 80 : 
+letterGrade = "B" 
+if grade >= 70 : 
+letterGrade = "C" 
+if grade >= 60 : 
+letterGrade = "D"
